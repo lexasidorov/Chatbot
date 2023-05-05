@@ -107,8 +107,6 @@ class Hand(Deck):
             new_string += f"\tОчки: {self.find_score()}"
         except:
             pass
-        # if self.__bet != 0:
-        #     new_string += f'\tСтавка {self.__bet}'
         return new_string
 
 class Player():
